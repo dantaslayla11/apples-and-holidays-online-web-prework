@@ -79,6 +79,8 @@ def all_supplies_in_holidays(holiday_hash)
         item.capitalize()
       end
       
+      puts "  " + "#{k1}".capitalize() + ": " + "#{string}"
+      
   
   
   
