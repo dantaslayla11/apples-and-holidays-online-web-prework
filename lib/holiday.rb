@@ -81,10 +81,8 @@ def all_supplies_in_holidays(holiday_hash)
         end
       
       dick = k1.to_s
+      array = dick.split("_")
       binding.pry
-      array.collect each do |item|
-        item.capitalize()
-      end
       keyString = array.join(" ")
       string = v1.join(", ")
       
