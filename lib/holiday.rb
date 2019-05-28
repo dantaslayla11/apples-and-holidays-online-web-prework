@@ -73,7 +73,12 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-   
+    puts  "#{k}".capitalize() + ":"
+     v.each do |k1,v1|
+      v1.collect do |item|
+        item.capitalize()
+      end
+      
   
   
   
