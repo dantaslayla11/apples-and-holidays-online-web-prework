@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       k1.collect do |item|
         k1.split("_").capitalize().join(" ")
-      
+      end
       v1.collect do |item|
         item.capitalize()
       end
