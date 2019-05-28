@@ -113,7 +113,6 @@ def all_holidays_with_bbq(holiday_hash)
    array=[]
    holiday_hash.each do |k,v|
      v.each do |k1,v1|
-       puts v1
        if (v1.include?("BBQ"))
          array.push(k1)
       end 
