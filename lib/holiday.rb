@@ -90,8 +90,8 @@ def all_supplies_in_holidays(holiday_hash)
       keyString = array.join(" ")
      
       string = v1.join(", ")
-      
-      puts "  " + "#{keyString}".capitalize() + ": " + "#{string}"
+     
+      puts "  " + "#{keyString}" + ": " + "#{string}"
       binding.pry
     end
 end      
