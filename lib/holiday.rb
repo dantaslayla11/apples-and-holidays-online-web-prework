@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
        v.each do |k1,v1|
       v1.collect do |item|
         item.capitalize()
-      end
+      
   end
   
   
