@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
       v1.collect do |item|
         item.capitalize()
       end
-      
+      string = v1.join(", ")
       puts "  " + "#{k1}".capitalize() + ": " + "#{string}"
       
   
