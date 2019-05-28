@@ -87,9 +87,9 @@ def all_supplies_in_holidays(holiday_hash)
           item.capitalize!
         end
       
-      keyString = array.join(" ")
+        keyString = array.join(" ")
      
-      string = v1.join(", ")
+       string = v1.join(", ")
      
       puts "  " + "#{keyString}" + ": " + "#{string}"
      
