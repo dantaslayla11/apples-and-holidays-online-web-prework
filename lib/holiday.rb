@@ -80,11 +80,11 @@ def all_supplies_in_holidays(holiday_hash)
           item.capitalize()
         end
       
-        dick = k1.to_s
-        array = dick.split("_")
+        k1String = k1.to_s
+        array = k1String.split("_")
       
-        array.collect do |fuckme|
-          fuckme.capitalize!
+        array.collect do |item|
+          item.capitalize!
         end
       
       keyString = array.join(" ")
