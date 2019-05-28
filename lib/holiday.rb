@@ -92,7 +92,7 @@ def all_supplies_in_holidays(holiday_hash)
       string = v1.join(", ")
      
       puts "  " + "#{keyString}" + ": " + "#{string}"
-      binding.pry
+     
     end
 end      
   
