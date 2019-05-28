@@ -87,7 +87,7 @@ def all_supplies_in_holidays(holiday_hash)
           fuckme.capitalize()
         end
       
-      keyString = array.join(" ")
+      keyString = earray.join(" ")
       binding.pry
       string = v1.join(", ")
       
