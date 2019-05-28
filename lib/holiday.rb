@@ -111,8 +111,9 @@ end
 def all_holidays_with_bbq(holiday_hash)
   
    holiday_hash.each do |k,v|
-     puts k
-     puts v
+     v.each do |k1,v1|
+       puts v1
+     end
   end
   
   
