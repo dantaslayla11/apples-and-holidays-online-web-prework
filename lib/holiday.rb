@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
      puts "#{k}".capitalize() + ":"
       v.each do |attribute,value|
         attribute.capitalize() + ":"
-        
+      end  
   end
   
   
