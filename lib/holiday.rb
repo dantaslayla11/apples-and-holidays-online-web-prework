@@ -74,21 +74,7 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
    holiday_hash.each do |k,v|
-    puts  "#{k}".capitalize() + ":"
-     v.each do |k1,v1|
-      v1.collect do |item|
-        item.capitalize()
-      end
-      
-      string = " "
-      string = v1.join(", ")
-      if (string.include?('_'))
-        string = string.split('_').map(&:capitalize).join(' ')
-      end
-      puts "  " + "#{k1}".capitalize() + ": " + "#{string}"
-      
-    end
-       
+    
   end  
   
   # iterate through holiday_hash and print items such that your readout resembles:
